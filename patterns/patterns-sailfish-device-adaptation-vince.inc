@@ -87,6 +87,8 @@ Requires: jolla-settings-system-flashlight
 # Additional packages
 Requires: sd-utils
 
+Requires: sailfish-connman-plugin-suspend
+
 %description -n patterns-sailfish-device-adaptation-vince
 Pattern with packages for vince HW Adaptation
 
