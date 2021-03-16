@@ -22,6 +22,8 @@ Requires: busybox-static
 Requires: openssh-server
 Requires: zypper
 Requires: sailfish-content-graphics-z%{icon_res}
+Requires: gnu-bash
+Requires: psmisc-tools
 
 # For multi-SIM devices
 Requires: jolla-settings-networking-multisim
