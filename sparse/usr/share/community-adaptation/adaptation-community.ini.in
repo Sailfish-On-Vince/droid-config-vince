@@ -1,9 +1,0 @@
-[adaptation-community]
-repos = adaptation-community
-pattern = Feature community adaptation
-description = Enable ssu for community ports
-
-[repositories]
-adaptation-community = https://sailfish-on-vince.github.io/repo/4.0.1.48/armv7hl/
-
-
