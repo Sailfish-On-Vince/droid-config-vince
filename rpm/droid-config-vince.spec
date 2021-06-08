@@ -26,6 +26,11 @@ Obsoletes: qt5-qpa-surfaceflinger-plugin
 %define ofono_enable_plugins bluez5,hfp_ag_bluez5
 %define ofono_disable_plugins bluez4,dun_gw_bluez4,hfp_ag_bluez4,hfp_bluez4,dun_gw_bluez5,hfp_bluez5
 
+Obsoletes: audioflingerglue
+Obsoletes: pulseaudio-modules-droid-glue
+Requires: pulseaudio-modules-droid >= 14.2.89
+Requires: ohm-plugin-accessories >= 1.7.0
+
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-vince.inc
 %include patterns/patterns-sailfish-device-configuration-vince.inc
