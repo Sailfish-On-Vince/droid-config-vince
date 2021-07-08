@@ -1,0 +1,2 @@
+CONFIG="-n --file=/etc/pulse/arm_droid_default.pa"
+AUDIOSYSTEM_PASSTHROUGH_IDX=18
