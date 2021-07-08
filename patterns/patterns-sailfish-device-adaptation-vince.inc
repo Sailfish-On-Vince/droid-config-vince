@@ -84,6 +84,8 @@ Requires: sd-utils
 
 Requires: sailfish-connman-plugin-suspend
 
+Requires: camera-settings-plugin
+
 %description -n patterns-sailfish-device-adaptation-vince
 Pattern with packages for vince HW Adaptation
 
