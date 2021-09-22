@@ -19,7 +19,7 @@ Requires: libhybris-libGLESv2
 Requires: libhybris-libwayland-egl
 
 # Sensors
-Requires: hybris-libsensorfw-qt5
+Requires: hybris-libsensorfw-qt5-hal
 
 # Vibra
 Requires: ngfd-plugin-native-vibrator
@@ -70,7 +70,7 @@ Requires: jolla-devicelock-daemon-encsfa
 #Requires: sailfish-devicelock-fpd
 
 # For GPS
-Requires: geoclue-provider-hybris
+Requires: geoclue-provider-hybris-hal
 
 # For FM radio on some QCOM devices
 Requires: qt5-qtmultimedia-plugin-mediaservice-irisradio
