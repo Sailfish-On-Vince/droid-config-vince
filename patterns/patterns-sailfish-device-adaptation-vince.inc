@@ -36,7 +36,8 @@ Requires: audiosystem-passthrough-dummy-af
 Requires: qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 
 # for ofono
-Requires: ofono-ril-binder-plugin
+Requires: ofono-ril-plugin
+Conflicts: ofono-ril-binder-plugin
 
 # These need to be per-device due to differing backends (fbdev, eglfs, hwc, ..?)
 Requires: qt5-qtwayland-wayland_egl
