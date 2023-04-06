@@ -16,9 +16,7 @@ Provides: usb-moded-configs
 # Device-specific ofono configuration
 Provides: ofono-configs
 Obsoletes: ofono-configs-mer
-Obsoletes: bluez5-configs-mer
-Conflicts: bluez5-configs-mer
-
+Conflicts: ofono-configs-binder
 Obsoletes: qt5-qpa-surfaceflinger-plugin
 
 # Community HW adaptations need this
