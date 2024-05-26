@@ -29,8 +29,8 @@ Obsoletes: qt5-qpa-surfaceflinger-plugin
 
 Obsoletes: audioflingerglue
 Obsoletes: pulseaudio-modules-droid-glue
-Requires: pulseaudio-modules-droid >= 14.2.89
-Requires: ohm-plugin-accessories >= 1.7.0
+#Requires: pulseaudio-modules-droid >= 14.2.89
+#Requires: ohm-plugin-accessories >= 1.7.0
 
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-vince.inc
