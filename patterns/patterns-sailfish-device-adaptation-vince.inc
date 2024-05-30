@@ -88,8 +88,8 @@ Requires: sd-utils
 
 Requires: sailfish-connman-plugin-suspend
 
-# Splash screen
-Requires: yamuisplash
+# Splash screen -- this will cause no twrp
+# Requires: yamuisplash
 
 %description -n patterns-sailfish-device-adaptation-vince
 Pattern with packages for vince HW Adaptation
