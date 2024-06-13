@@ -7,11 +7,11 @@ Requires: patterns-sailfish-device-adaptation-vince
 Requires: patterns-sailfish-cellular-apps
 
 # Early stages of porting benefit from these:
-Requires: patterns-sailfish-device-tools
+# Requires: patterns-sailfish-device-tools
 
 # jolla-rnd-device will enable usb-moded even when UI is not yet
 # brought up (useful during development, available since update10)
-Requires: jolla-rnd-device
+# Requires: jolla-rnd-device
 
 Requires: sailfish-content-graphics-z%{icon_res}
 
