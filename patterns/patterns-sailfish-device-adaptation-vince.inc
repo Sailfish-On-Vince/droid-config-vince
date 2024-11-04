@@ -91,6 +91,29 @@ Requires: sailfish-connman-plugin-suspend
 # Splash screen -- this will cause no twrp
 # Requires: yamuisplash
 
+#Debug tools
+Recommends: vim
+Recommends: strace
+Recommends: unzip
+Recommends: git
+Recommends: mce-tools
+
+#Sailfish porter tools
+Recommends: jolla-developer-mode
+Recommends: sailfishsilica-qt5-demos
+Recommends: busybox-static
+Recommends: net-tools
+Recommends: openssh-clients
+Recommends: openssh-server
+Recommends: vim-enhanced
+Recommends: zypper
+Recommends: strace
+Recommends: jolla-rnd-device
+
+# remove useless busybox-bash
+Requires: gnu-bash
+Obsoletes: busybox-symlinks-bash
+
 %description -n patterns-sailfish-device-adaptation-vince
 Pattern with packages for vince HW Adaptation
 
