@@ -108,7 +108,10 @@ Recommends: openssh-server
 Recommends: vim-enhanced
 Recommends: zypper
 Recommends: strace
+Recommends: gdb
 Recommends: jolla-rnd-device
+Requires: patterns-sailfish-dev-tools
+Requires: qt5-qtdeclarative-qmlscene
 
 # remove useless busybox-bash
 Requires: gnu-bash
