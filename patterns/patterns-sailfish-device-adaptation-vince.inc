@@ -111,9 +111,8 @@ Recommends: strace
 Recommends: gdb
 Recommends: jolla-rnd-device
 Recommends: libhybris-tests
-Requires: patterns-sailfish-dev-tools
-Requires: patterns-sailfish-rnd
-Requires: qt5-qtdeclarative-qmlscene
+Recommends: patterns-sailfish-dev-tools
+Recommends: qt5-qtdeclarative-qmlscene
 
 # remove useless busybox-bash
 Requires: gnu-bash
