@@ -18,6 +18,10 @@ Provides: ofono-configs
 Obsoletes: ofono-configs-mer
 Conflicts: ofono-configs-binder
 Obsoletes: qt5-qpa-surfaceflinger-plugin
+Obsoletes: jolla-devicelock-daemon-encpartition
+Obsoletes: jolla-devicelock-plugin-encpartition
+Conflicts: jolla-devicelock-daemon-encpartition
+Conflicts: jolla-devicelock-plugin-encpartition
 
 # Community HW adaptations need this
 %define community_adaptation 1
