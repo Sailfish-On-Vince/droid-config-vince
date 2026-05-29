@@ -83,9 +83,6 @@ Requires: jolla-mediaplayer-radio
 # For torch
 Requires: jolla-settings-system-flashlight
 
-# Additional packages
-Requires: sd-utils
-
 Requires: sailfish-connman-plugin-suspend
 
 # Splash screen -- this will cause no twrp
