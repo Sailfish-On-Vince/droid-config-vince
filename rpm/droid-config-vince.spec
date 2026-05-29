@@ -9,7 +9,6 @@
 %define pixel_ratio 1.5
 # We assume most devices will
 %define have_modem 1
-%define android_version_major 7
 
 # Device-specific usb-moded configuration
 Provides: usb-moded-configs
