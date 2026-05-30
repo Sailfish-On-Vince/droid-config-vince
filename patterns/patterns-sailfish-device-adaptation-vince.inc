@@ -29,7 +29,6 @@ Requires: qt5-feedback-haptics-native-vibrator
 Requires: qt5-plugin-generic-evdev
 
 Requires: pulseaudio-modules-droid-jb2q
-Requires: pulseaudio-modules-droid-hidl
 Requires: audiosystem-passthrough-dummy-af
 
 # for audio recording to work:
