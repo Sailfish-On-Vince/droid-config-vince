@@ -1,2 +1,2 @@
-CONFIG="-n --file=/etc/pulse/arm_droid_card_custom.pa"
+CONFIG="-n --file=/etc/pulse/default_sailfish.pa"
 AUDIOSYSTEM_PASSTHROUGH_IDX=18
